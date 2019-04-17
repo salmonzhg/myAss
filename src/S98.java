@@ -13,13 +13,6 @@ public class S98 {
         return isValid(root.left, root.val, min) && isValid(root.right, max, root.val);
     }
 
-    public static class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-  }
-
     public static void main(String[] args) {
         S98 tester = new S98();
 
